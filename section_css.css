@@ -1,0 +1,245 @@
+/**green color-#4CAF50*/
+/***********************************/
+/***         Basic Setup   *********/
+/***********************************/
+* {margin: 0;
+   padding: 0;
+   box-sizing: border-box;}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/** used for any row & column operation **/ 
+.row { max-width: 1140px;
+       margin: 0 auto;   
+      }
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/*HEADINGS*/
+h1,h2,h3,h4 { 
+    font-weight: 300;
+    text-transform: uppercase;
+           }
+h1  { margin-top: 0;
+      color: #fff;
+      margin-bottom: 20px; 
+      font-size: 230%;
+      word-spacing: 4px;
+     letter-spacing: 1px;
+    }
+h2 { font-size: 180%;
+     word-spacing: 2px;
+     text-align: center;
+     margin-bottom: 20px;
+     letter-spacing: 1px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main_space {margin-top: 50px;}
+
+
+
+/*BUTTONS*/
+
+.both_btn_margin {
+    display: grid;
+    place-items: center;
+}
+
+.both_btn {
+       font-size: 90%;
+       text-align: center;
+       width: 170px;
+       font-weight: 500;
+       padding: 5px 0px;
+       border-radius: 200px;
+       transition: background-color .3s, border .3s, color .3s; 
+}
+.btn_full { 
+     
+         background-color: #e67e22;
+         border: 1px solid #e67e22;
+         color: #fff;
+         margin: 10px 0;
+        
+}
+.btn_ghost
+{        font-weight: 400;
+         border: 1px solid #e67e22;
+         color: #e67e22;        
+} 
+
+
+.btn_ghost:link,
+.btn_ghost:visited,
+input[type=submit]:link,
+input[type=submit]:visited {
+    
+        color: white;
+        background-color: #e67e22;
+}
+
+.btn_ghost:hover,
+.btn_ghost:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    
+         color: white;
+         background-color: #e67e22;
+         cursor: pointer;
+}
+
+
+/************************************/
+
+
+/************************************/
+/*********section - our events********/
+/***********************************/
+
+.box_css {
+    border-radius: 10px; 
+    background-color: #fff;
+    padding: 12px;
+    margin: 40px 9%;
+    box-shadow: 1px 2px 4px 0px #0c34a33d !important;
+    position: relative;
+}
+.box_in_css{
+        margin-bottom: 10px ;
+        width: auto;
+        background-color: #fff;
+        padding: 8px 12px;
+        border-left: 4px solid #e67e22;
+        font-size: 20px;  
+        } 
+
+.box_img {  width: 100%;
+            height: 230px;
+    
+         }
+
+
+
+/************************************/
+/*********section - our pages********/
+/***********************************/
+.our_pages {
+    background-color:#dde6f5;
+}
+.pages  { display: grid;
+          place-items: center;
+        }
+.fb_page {
+    margin-top: 20px;   
+}
+
+.insta_page {
+             position: relative;
+             top: 7%;
+             left: 4%;
+}
+.you_tube   {
+             margin-top: 20px;
+}
+.fb_page,.you_tube,.insta_page  p {
+    font-weight: 700;
+    padding: 10px;
+    color: #e67e22;
+}
+
+/******************************************/
+/*********section - faculty advisor********/
+/******************************************/
+
+.faculty_box {
+    width: 80%;
+    height: 90%;
+    padding: 10%;
+    margin: 20px 0px 0px 10%; 
+    box-shadow: 1px 1px 10px 2px #0c34a33d;
+    border-radius: 15px;
+}
+.faculty_box img {
+    width:80%; height:80%;
+    margin-left: 9%;
+    box-shadow: 1px 1px 10px 1px #0c34a33d;
+    
+}
+.faculty_box p {
+    color: #e67e22;
+    padding-top: 7%;
+    font-weight: 500;
+    font-size: 70%;
+}
+
+
+
+/******************************************/
+/*********section - footer********/
+/******************************************/
+
+footer {
+    margin-bottom: -20px;
+   background-color: #dde6f5;
+}
+ 
+footer p {
+    font-size: 80%;
+    padding: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+
+/*----------------------------------------*/
+/*For animations*/
+/*----------------------------------------*/
+
+.js--wp-1,
+.js--wp-2
+ {
+    opacity: 0;
+    animation-duration: 1s;
+}
+.js--wp-4 {  animation-duration: 1s;}
+
+.js--wp-1 .animated,
+.js--wp-2 .animated
+{
+    opacity: 1;
+}
+

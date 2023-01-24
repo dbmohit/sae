@@ -1,0 +1,264 @@
+
+@media(max-width: 1199px){
+    .home-section .home-img {
+        text-align: center;
+    }
+    .home-section .home-img img{
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+    .main_space .faculty_box p {
+    font-size: 60%;
+    }   
+
+  
+}
+
+
+@media(max-width: 991px){
+    .header{
+        padding: 5px 0;
+    }
+    .header .navbar-nav{
+        background-color: #ffffff;
+    }
+    .header .navbar #collapsibleNavbar .nav-item .nav-link{
+        padding: 10px 15px 10px;
+    }
+    .header .navbar-light .navbar-toggler{
+        background-color: #ffffff;
+        padding: 0;
+        height: 38px;
+        width: 45px;
+        border: none;
+    }
+    .header .navbar-light .navbar-toggler:focus{
+        outline: none;
+    }
+    .home-section .home-img{
+        margin-bottom: 40px;
+    }
+    .home-section{
+        padding: 150px 0 150px;
+    }
+    .img1{
+    height: 6%;
+    width: 6%;
+    }
+    .box_in_css .box_img {  
+            height: 290px;
+         }
+    .map_center  iframe{
+        padding-right: 11%;
+    }
+   .main_space .faculty_box p {
+    font-size: 80%;
+    }   
+
+  
+}
+    
+
+@media(max-width:768px){
+    .home-section .navbar-content h1{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .home-section .bg-shapes div:nth-child(5){
+        top: 15%;
+    }
+    header .container .navbarpadding { padding: 2px; }
+    .box_in_css .box_img {  
+            height: 230px;
+         }
+     .map_center  iframe{
+        padding-right: 0;
+        margin-top: 20px; 
+    }
+       .map_center{display: flex;
+             justify-content: center;
+           }
+    .no-email {
+     padding-top: 10px;
+       }
+}
+
+
+@media(max-width: 600px){         
+      
+}
+        
+
+@media(max-width: 575px){
+    
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .home-section .home-content h1{
+    font-size: 45px;
+    }
+    .home-section .home-content p{
+    font-size: 15px;
+    }
+}
+
+
+@media(max-width: 480px)
+{ 
+    .about-section .about-content p{
+    font-size: 75%;
+     }   
+    .section-title h2 { font-size: 150%;
+         }
+    .our_events h2 { font-size: 150%;
+         }
+    .our_pages h2 { font-size: 150%;
+         }
+    .our_facultyadvisor h2 { font-size: 150%;
+         }
+    .footer_para{
+    font-size: 70%;
+      }
+    h2:after {
+    width: 80px; 
+     }
+    .both_btn_margin .both_btn {
+       font-size: 70%;
+       width: 135px; 
+      }
+    .box_in_css .box_img {  
+            height: 200px;
+         }
+    .our_events .box_css {
+    margin: 40px 6%;
+     }
+    .img1{
+    height: 8%;
+    width: 8%;
+    }
+    .map_center  iframe{
+        padding: 1%;  
+    }
+    .map_center{display: flex;
+             justify-content: center;
+           }
+    
+    .div1{
+		height: 35vh;	
+     	font-size: 235%;
+	 }
+     .div2 
+     {
+         font-size: 105%;
+      }
+      .no-email {
+         font-size: 100%;
+        }
+
+  
+}
+
+@media(max-width: 421px){
+    .box_in_css .box_img {  
+            height: 190px;
+         }
+    
+    .div1{
+		height: 35vh;	
+     	font-size: 230%;
+	 }
+     .div2 
+     {
+         font-size: 100%;
+      }
+      .youtube
+       {
+	      height:50px;
+        }
+       .youtube:hover
+       {
+	      height: 67px;
+         }
+
+        .fb
+          {
+	      height: 90px;
+	       width: 90px;
+           }
+
+         .fb:hover
+         {   
+	       height: 120px;
+         	width: 120px;
+
+           }
+         .insta{
+	      	height: 95px;
+	       }
+        .insta:hover
+          {
+	
+        	height: 115px;
+	        width: 115px;
+           }
+
+         .map_center{display: flex;
+             justify-content: center;
+           }
+}
+
+
+@media(max-width: 402px){
+    .home-section .home-content h1{
+    font-size: 43px;
+    }
+    .home-section .home-content p{
+    font-size: 13.6px;
+    }
+    .about-section .about-content p{
+    font-size: 72%;
+     } 
+    .both_btn_margin .both_btn {
+       font-size: 65%;
+       width: 130px; 
+      }
+    .box_in_css .box_img {  
+            height: 183px;
+         }
+    .our_events .box_css {
+    margin: 40px 3%;
+     }
+    
+    .div1{
+		height: 35vh;	
+     	font-size: 210%;
+	 }
+     .div2 
+     {
+         font-size: 95%;
+      }
+      .no-email {
+         font-size: 90%;
+        }
+
+    
+      .youtube
+       {
+	      height:45px;
+        }
+       .fb
+          {
+	      height: 85px;
+	       width: 85px;
+           }
+        .insta{
+	      	height: 90px;
+	       }
+        
+   
+       
+     
+}
+ 

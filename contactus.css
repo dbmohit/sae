@@ -1,0 +1,111 @@
+/*colors: 
+    light blue -#0c34a33d
+    orange -  #e67e22
+    blue-  #0242b9
+    
+*/
+* {margin: 0;
+   padding: 0;
+   box-sizing: border-box;}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.div1{
+	
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(bgf2.jpg);
+	background-size: 100% 100%;
+    background-attachment: fixed;
+	
+	height: 40vh;	
+	width:100%;
+
+	display: grid;
+	place-items: center;
+	
+	font-size: 250%;
+	font-weight: 700;
+	color: #ffffff;	
+}
+
+.div2 
+{	padding: 20px;
+	font-weight: 600;
+    font-size: 120%;
+}
+
+.no-email {
+    font-size: 120%;
+     padding-top: 20px;
+}
+
+.phone{
+	height:20px;
+    padding-right: 5px;
+}
+
+.email
+{
+	height: 15px;
+    padding-right: 5px;
+}
+@media 
+ .map_center{
+    display: grid;
+     place-items: center;
+}
+
+
+.youtube
+{
+	padding-right: 20px;
+	margin-top: 5px;
+	height:55px;
+}
+.youtube:hover
+{
+	height: 67px;
+}
+
+.fb
+{
+	height: 100px;
+	width: 100px;
+}
+
+.fb:hover
+{   
+	height: 120px;
+	width: 120px;
+
+}
+.insta{
+	padding:16px;
+	height: 100px;
+	
+}
+.insta:hover
+{
+	
+	height: 115px;
+	width: 115px;
+}
+
+.newdiv
+{
+	margin-top: 30px;
+	background-color:rgba(37 65 84) ;
+	padding: 15px;
+	padding-bottom: 0px;
+    }
+
+
+

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="whole_responsive.css">
+        <link rel="stylesheet" type="text/css" href="ourteam.css">
+    
+        <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="row1.css">
+    
+        <!-- Font Awesome   -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <!-- Dark mode -->
+        <link rel="stylesheet" href="darkmode.css">
+    
+        <!-- favicon, logo in search tab -->
+        <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="resources/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <!-- End favicon, logo in search tab -->
+    <title>Registration,SAE_mmmut</title>
+</head>
+<body>
+    <header class="header fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  navbar-light navbarpadding">
+
+                <!-- Brand -->
+                <img src="images/MMM%20Logo-min.png" alt="mmm logo" class="img1">
+
+                <div class="theme">
+                    <input type="checkbox" id="checkbox" class="checkbox">
+                    <label class="label" for="checkbox">
+                        <div class="ball"></div>
+                    </label>
+                </div>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Our Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="ourteam.html">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sponsor.html">Sponsors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="creators.html">Creators</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
+                       
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="main_form">
+        <form  onsubmit="sendEmail(); reset(); return flase;">
+            <h3>Registration Form</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="number" id="roll" placeholder="Roll Number" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="branch" placeholder="Branch" required>
+            <input type="text" id="hostel" placeholder="hostel" required>
+            <input type="text" id="phone" placeholder="Phone " required>
+            <button type="submit">Send</button>
+
+
+        </form>
+    </div>
+    <script>
+        var preloader = document.getElementById('loading');
+
+        function myFunction() {
+            preloader.style.display = 'none';
+        }
+
+
+
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "rishabhsharma919319@gmail.com",
+                Password : "#Princes2004",
+                To : 'rishabhsharma04072004@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "Registration form",
+                Body : "Name : " + document.getElementById("name").value 
+                       + "<br> Roll Number : " + document.getElementById("roll").value
+                       + "<br> Email : " + document.getElementById("email").value
+                       + "<br> Branch : " + document.getElementById("branch").value
+                       + "<br> Hostel : " + document.getElementById("hostel").value
+                       + "<br> Phone : " + document.getElementById("phone").value
+            }).then(
+              message => alert("Registration Succesfully")
+            );
+        }
+    </script>
+
+
+
+    <script src="resources/js/jquery.min.js"></script>
+    <script src="resources/js/popper.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/jquery.waypoints.min.js"></script>
+    <script src="main.js"></script>
+
+    <script src="animation.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

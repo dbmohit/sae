@@ -1,0 +1,152 @@
+      .ott_box {
+            background-color: rgba(0, 0, 0, 0.92);
+            height: 60px;
+            width: auto;
+            padding-top: 15px;
+            display: grid;
+            place-items : center;
+                }
+        
+        .btn_video  {
+            width: 250px;
+            background-color: white;
+            color: black;     
+            font-weight: 400;
+            border-radius: 20px;
+            transition: background-color .3s, border .3s, color .3s; 
+                    }
+       
+        .btn_video p 
+        {  
+            padding: 4px;
+            
+        }
+        .btn_video:hover,
+        .btn_video:active {
+            background-color: black;
+            color: white;
+        }
+       
+        .written_para {
+            background-color: rgba(0, 0, 0, 0.94);
+            color: white;  
+            font-weight: 400;
+            letter-spacing: 0.3px;
+        }
+         .written_para div{
+            padding: 0 15%;
+            padding-top: 10px;}
+        
+        .written_para div:first-child{
+               
+               font-size: 130%;
+               font-weight: 500;}
+        
+        
+        .written_para p:after{
+        display: block;
+        height: 2px;
+        background-color: grey;
+        content: "";
+        width: 20%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+   
+        }
+       
+.box_css {
+    border-radius: 10px; 
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 8px;
+    margin: 40px 23%;
+    box-shadow: 2px 2px 4px 0px #0c34a33d !important;
+    position: relative;
+}
+.box_in_css{
+        background-color: white;
+        padding: 8px 10px;
+          } 
+
+
+
+
+        
+/* small tablets to big tablets: from 768 to 1023px;  */
+ @media only screen and (max-width: 1023px)
+{  
+    .box_css {
+    margin: 40px 18%;
+          }
+}
+
+/* big phones to small tablets: from 600 to 767px;  */
+ @media only screen and (max-width: 768px)        
+ {
+    .written_para div{
+             padding: 0 10%;
+       } 
+     .written_para p {padding-top: 10px;
+             }
+     .box_css {
+    margin: 40px 10%;
+         }
+  }
+     
+/* small phones to small tablets: from 481 to 600px;  */
+ @media only screen and (max-width: 600px)
+{         
+    
+         .btn_video p 
+        {   font-size: 95%;
+         }
+       .btn_video 
+        {
+            width: 230px;    
+        }
+        .written_para {
+            font-size: 95%;
+        }
+      .box_css {
+        margin: 40px 7%;
+      }
+}
+        
+/* small phones: from 0 to 480px;  */
+@media only screen and (max-width: 480px)
+{
+        .btn_video p 
+        {   font-size: 80%;
+         }
+       .btn_video 
+        {
+            width: 200px;
+            }
+        .written_para {
+            font-size: 90%;
+        } 
+   
+    .indica { 
+        opacity: 0.4;
+        
+        }
+    .box_css {
+       border-radius: 10px; 
+       margin: 40px 5%;
+       padding: 4px;
+        
+            }
+    .box_in_css{
+          padding: 7px 7px;
+          } 
+   
+
+}
+@media only screen and (max-width: 400px)
+{
+    .box_css {
+       margin: 40px 4%;
+            }
+   
+}
+       

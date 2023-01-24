@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.about::before {
+  content: "";
+  position: absolute;
+  height: 460px;
+}
+
+.about {
+  margin: 20px auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.abouthead {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.oursponsor::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+}
+
+.aboutcontent {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+}
+h1:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sectionheading h1 
+{
+    color: black;
+    margin-top: 30%;
+}
+.info {
+  padding: 20px;
+  text-align: justify;
+ 
+}
+
+hr {
+  width: 80%;
+  margin: auto;
+}
+
+/* sponsor images */
+.headcontent h1 {
+    color: black;
+}
+
+.oursponsor::before {
+  content: "";
+  position: absolute;
+}
+.sponsorbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.sponsorimg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+.sponsorimg img {
+  width: 200px;
+  height: 150px;
+  margin: 7px;
+  padding: 10px;
+}
+.sponsorhead{
+  font-family: "Roboto", sans-serif;
+}
+.headcontent {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+.sponsorimg div {
+  height: 200px;
+}
+
+
+/* Why sponsor us */
+
+
+.whyspon::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.whysponbox{
+  margin-top: 20px;
+  padding-top: 30px;
+ 
+}
+
+.whysponhead{
+  margin-top: 20px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.whyspon h1{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+.headspon{
+  padding:20px;
+}
+
+.headspon{
+  width: 80%;
+  font-family: "Roboto", sans-serif;
+
+}
+.imgspon img{
+  height: 50px;
+  width: 50px;
+}

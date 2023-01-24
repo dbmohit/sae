@@ -1,0 +1,112 @@
+
+       .ott_box {
+            background-color: rgba(0, 0, 0, 0.92);
+            height: 60px;
+            width: auto;
+            padding-top: 15px;
+            display: grid;
+            place-items : center;
+                }
+        
+        .btn_video  {
+            width: 250px;
+            background-color: white;
+            color: black;       
+            border-radius: 20px;
+            transition: background-color .3s, border .3s, color .3s; 
+                    }
+       
+        .btn_video p 
+        {  
+            padding: 4px;
+        }
+        .btn_video:hover,
+        .btn_video:active {
+            background-color: black;
+            color: white;
+        }
+        
+         .video_box{
+            display: grid;
+            place-items : center;       
+         }
+        
+        .video_box video{border-radius: 8px;
+         margin: 40px 0;
+        }
+        
+      
+        .written_para {
+            background-color: rgba(0, 0, 0, 0.92);
+            color: white;   
+            letter-spacing: 0.3px;
+        }
+        .written_para p{
+             padding: 0 10%;
+            padding-top: 10px;}
+        .written_para div:first-child{
+               font-size: 130%;
+               font-weight: 500;}
+        
+        .written_para p:after{
+        display: block;
+        height: 2px;
+        background-color: grey;
+        content: "";
+        width: 20%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+   
+        }
+       
+        
+/* small tablets to big tablets: from 768 to 1023px;  */
+ @media only screen and (max-width: 1023px)
+{  
+}
+
+/* big phones to small tablets: from 600 to 767px;  */
+ @media only screen and (max-width: 768px)        
+ {
+     .video_box video{
+         width: 80%;    
+        }
+  }
+     
+/* small phones to small tablets: from 481 to 600px;  */
+ @media only screen and (max-width: 600px)
+{         
+      .video_box video{
+                  width: 90%;    
+        }
+         .btn_video p 
+        {   font-size: 95%;
+         }
+       .btn_video 
+        {
+            width: 230px;    
+        }
+        .written_para {
+            font-size: 95%;
+        }
+}
+        
+/* small phones: from 0 to 480px;  */
+@media only screen and (max-width: 480px)
+{
+        .btn_video p 
+        {   font-size: 80%;
+         }
+       .btn_video 
+        {
+            width: 200px;
+            }
+        .video_box video{
+             width: 97%;    
+        }
+        .written_para {
+            font-size: 90%;
+        }
+}
+       
